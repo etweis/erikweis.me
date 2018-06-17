@@ -1,5 +1,5 @@
 <?php
-    $to = 'demo@site.com';
+    $to = 'erik.t.weis.18@gmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
@@ -18,7 +18,7 @@
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$subject.'</td></tr>
         <tr><td>Text: '.$text.'</td></tr>
-        
+
     </table>';
 
     if (@mail($to, $email, $message, $headers))
